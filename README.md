@@ -10,4 +10,4 @@ Criar uma aplicação responsiva que calcule, a partir do número de pessoas e h
 - Incluir vegetarianos na conta
 
 #### Site Funcional
-https://ecstatic-swirles-ff5ddf.netlify.com/
+https://calculadora-churrasco.netlify.com/
