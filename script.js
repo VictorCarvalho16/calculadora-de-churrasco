@@ -41,21 +41,21 @@ calculaBtn.addEventListener('click', (event) => {
         <h1 class="display-5">Comida</h1>
         <div class="row">
             <div class="col-6">
-                <h5>Vegetais:</h5>
+                <h5><i class="fas fa-carrot"></i> Vegetais</h5>
                 <p>${vegetais}</p>
             </div>
             <div class="col-6">
-                <h5>Carnes:</h5>
+                <h5><i class="fas fa-bacon"></i> Carnes</h5>
                 <p>${carne}</p>
             </div>
         </div>
     </div>
     <div class="col-sm-4 text-center col-xs-12">
-        <h1 class="display-5">Cerveja:</h1>
+        <h1 class="display-5"><i class="fas fa-beer"></i> Cerveja</h1>
         <p>${cervejas}</p>
     </div>
     <div class="col-sm-4 text-center col-xs-12">
-        <h1 class="display-5">Refrigerante:</h1>
+        <h1 class="display-5"><i class="fab fa-gulp"></i> Refrigerante</h1>
         <p>${refrigerantes} de Refrigerante</p>
     </div>
     `
