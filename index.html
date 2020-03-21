@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
+    <!-- Font Awesome 5.0 CDN -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
     <title>Calculadora de Churrasco</title>
@@ -16,7 +17,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar- bg-dark">
+        <nav class="navbar navbar-dark bg-dark">
             <h1 class="text-center text-light mx-auto"><i class="fas fa-utensils"></i> Calculadora de Churrasco</h1>
         </nav>
     </header>
@@ -40,7 +41,7 @@
                             <input min="0" style="min-width: 50px;" type="number" class="form-control" id="horas"
                                 placeholder="0">
                         </div>
-                        <button type="submit" class="btn btn-primary btn-block" id="calcula">Calcular</button>
+                        <button type="submit" class="btn btn-outline-primary btn-block" id="calcula">Calcular</button>
                     </form>
                 </div>
                 <div class="col-12 row mt-5" id="results">
@@ -51,6 +52,9 @@
         </div>
     </main>
 
+    <footer class="container-fluid text-center">
+        <p><a class="alert-link" href="https://github.com/VictorCarvalho16">Victor Carvalho</a> &copy;2020</p>
+    </footer>
 
     <!--  JavaScript -->
     <script src="script.js"></script>

@@ -7,7 +7,6 @@ calculaBtn.addEventListener('click', (event) => {
     let horasInput = document.querySelector('#horas').value
 
     let carne = (pessoasInput * horasInput / 2) * 50
-
     if(carne >= 1000) {
         carne = `${carne / 1000}Kg`
     } else {
