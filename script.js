@@ -59,4 +59,6 @@ calculaBtn.addEventListener('click', (event) => {
     </div>
     `
     resultsDiv.innerHTML = htmlContent
+
+    document.querySelector('footer').style.position = 'relative'
 })

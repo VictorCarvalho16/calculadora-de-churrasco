@@ -1,0 +1,5 @@
+@media (min-height : 100%) {
+    footer {
+        position: relative !important;
+    }
+}
