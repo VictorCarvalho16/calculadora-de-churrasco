@@ -1,5 +1,10 @@
-@media (min-height : 100%) {
-    footer {
-        position: relative !important;
-    }
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    min-height: 85%;
+    margin: 0 auto -50px;
 }
